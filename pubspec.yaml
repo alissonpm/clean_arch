@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=2.17.3 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -26,10 +26,10 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -44,7 +44,31 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
+
+  # https://pub.dev/packages/json_annotation
+  json_annotation: ^4.6.0
+
+  # https://pub.dev/packages/build_runner
+  build_runner: ^2.1.8
+
+  # https://pub.dev/packages/freezed/install
+  analyzer: ^4.1.0
+
+  # https://pub.dev/packages/json_serializable
+  json_serializable: ^6.1.5
+
+  # https://pub.dev/packages/freezed/install
+  freezed: 2.0.3+1
+  
+  either_dart: ^0.2.0
+
+  # https://pub.dev/packages/equatable/install
+  equatable: ^2.0.3
+  
+  dartz: ^0.10.1
+
+  string_validator: ^0.3.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
